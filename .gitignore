@@ -1,0 +1,17 @@
+# Local environments and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Keep the source comparison and submitted report reproducible.
+# Other generated runs and redundant archives remain local.
+artifacts/*
+!artifacts/latest_run.json
+!artifacts/20261102T152220909909Z_3d7d7c00a8/
+!artifacts/20261102T152220909909Z_3d7d7c00a8_evidence.zip
+!artifacts/20261102T163844608816Z_8ecc11bf81/
+!artifacts/20261102T163844608816Z_8ecc11bf81.zip

@@ -1,0 +1,25 @@
+{
+  "choice": "Human-led review; no model clears all pilot gates",
+  "classical_passes": false,
+  "gates": {
+    "min_macro_f1": 0.8,
+    "min_risk_recall": 0.85,
+    "min_transformer_gain": 0.03,
+    "min_retained_accuracy": 0.95,
+    "min_coverage": 0.5,
+    "min_validation_retained_n": 30,
+    "max_inference_ms_per_paragraph": 100.0
+  },
+  "details": [
+    {
+      "transformer_primary_passes": false
+    }
+  ],
+  "use": "analyst assistance with human review",
+  "change_choice_if": "Transformer meets paired-gain, risk-recall and latency gates on controlled data; or a fresh issuer/temporal audit changes performance.",
+  "stop_conditions": [
+    "Risk recall <0.85 on an adequately supported labelled audit set.",
+    "Domain/language changes without validation.",
+    "Retained accuracy/coverage misses gates: revert to full review."
+  ]
+}

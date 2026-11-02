@@ -1,0 +1,12 @@
+{
+  "model": "TF-IDF|LR|1gram|stop=None|C=1.0",
+  "representation": "TF-IDF",
+  "classifier": "LR",
+  "ngram_max": 1,
+  "stop_words": "None",
+  "C": 1.0,
+  "validation_macro_f1": 0.7912610180012415,
+  "validation_risk_recall": 0.7647058823529411,
+  "fit_seconds": 0.15147163400001773,
+  "vocabulary_size": 1000
+}

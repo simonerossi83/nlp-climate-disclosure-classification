@@ -1,0 +1,13 @@
+criterion,status,evidence
+Reproducibility,complete,run_config.json; requirements*.txt; environment.freeze.txt; split_manifest.csv; manifest.json
+Preprocessing evidence,complete,tables/preprocessing_comparison.csv; figures/preprocessing_comparison.png
+Failure pattern → improvement,complete,tables/classical_errors.csv; tables/error_slices.csv; Section 11 annotation proposal
+Controlled comparison + validity threats,complete,same split_manifest.csv; paired_comparison.json on full run; Section 1 threats
+Appropriate fine-tuning + compute trade-off,complete,models/distilbert_seed_*/trainer_state.json on full run; legacy_metrics.json; Section 6
+Explainability linked to actual uncertainty,complete,explainability_finding.json; tables/local_linear_explanation.csv; saved row IDs
+Triangulated inference,complete,confusion matrix + actual error rows + local diagnostic; triangulated_inference.md
+Decision and conditions for use,complete,decision.json; Section 11 guardrails
+Operational success criteria,complete,Section 1 proposed gates; decision.json applies the same gates
+Concise stakeholder findings and limits,complete,stakeholder_briefing.md; Section 10
+Stakeholder criteria justify choice,complete,"risk recall, quality, review workload and recorded latency feed decision.json"
+Risk → mitigation → check,complete,Section 11 risk/mitigation/check/decision-constraint table

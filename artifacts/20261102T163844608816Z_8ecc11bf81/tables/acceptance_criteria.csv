@@ -1,0 +1,13 @@
+criterion,evidence
+Environment and traceable run,run_config.json; environment.freeze.txt; source_manifest.json; comparison_source.json in review mode
+Preprocessing alternative,tables/preprocessing_comparison.csv; Section 4 controlled stop-word comparison
+Observed failures motivate improvements,tables/qualitative_error_families.csv; tables/qualitative_error_examples.csv; Section 8 proposed experiments
+Controlled comparison and validity threats,split_manifest.csv; tables/test_metrics.csv; paired_comparison.json; repeated-body and issuer caveats
+Fine-tuning and constraint trade-offs,recorded trainer_state.json; resource comparison; 57/320 truncation count; seed variation
+Explainability and limits,explanation_cases.json; exact-margin assertions; token/deletion CSVs; no transformer token claim
+Triangulated inference,class confusion counts + actual error paragraphs + classical feature contributions; interpretations labelled as hypotheses
+Conditional decision,"decision.json; balanced-quality, risk-recall, latency and routing gates"
+Operational framing,Section 1 proposed targets explicitly labelled assumptions; Section 7.2 explains the missed target
+Stakeholder explanation,"stakeholder_briefing.md; counts, reading consequences and scope limits in Section 10"
+Stakeholder impacts,"Section 10.2 ties impacts to missed opportunities, false risk alarms and actual review workload"
+Fairness and misuse safeguards,tables/class_recall_gaps.csv; Section 10.3 technical/process safeguards and checks

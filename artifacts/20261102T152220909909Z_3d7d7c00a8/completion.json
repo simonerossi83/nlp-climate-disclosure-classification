@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "transformer_status": "complete: controlled GPU training and predictions saved",
+  "run_id": "20261102T152220909909Z_3d7d7c00a8",
+  "config_sha256": "3d7d7c00a8fc83d9b63844512af76f3415b7fbe33cb81da3145fa2195f2723e7",
+  "executed_to_final_cell": true,
+  "source_dataset_revision": "f261b1fd1af11195db3bdfd809a37a85e0d9fbc2",
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "results_table": "tables/test_metrics.csv",
+  "run_config": "run_config.json",
+  "environment": "environment.freeze.txt"
+}

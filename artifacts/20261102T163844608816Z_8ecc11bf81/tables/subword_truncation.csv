@@ -1,0 +1,4 @@
+split,n,truncated_n,truncated_fraction,p95_subwords
+train,800,113,0.14125,181.24999999999977
+validation,200,23,0.115,152.34999999999988
+test,320,57,0.178125,197.1

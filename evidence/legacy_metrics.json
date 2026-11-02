@@ -1,0 +1,38 @@
+{
+  "status": "historical_saved_output_not_rerun",
+  "source_file": "evidence/original_submission.ipynb",
+  "source_sha256": "92c81b95689eea7816943fd7c513652506c5a4b1ae7356caa037378bb57a6ba6",
+  "protocol": "Original 800/100/100 split of official train; classical refit on 900, transformer trained on 800; not a controlled architecture comparison.",
+  "baseline": {
+    "accuracy": 0.76,
+    "macro_f1": 0.7547,
+    "macro_average_precision": 0.8974
+  },
+  "transformer": {
+    "test_loss": 0.45611652731895447,
+    "test_accuracy": 0.85,
+    "test_macro_f1": 0.8470351354072285,
+    "test_runtime": 20.5996,
+    "test_samples_per_second": 4.854,
+    "test_steps_per_second": 0.34
+  },
+  "training": {
+    "runtime_seconds": 1886.7016,
+    "validation_loss": [
+      0.5990496873855591,
+      0.4696476459503174,
+      0.4517006576061249
+    ],
+    "validation_macro_f1": [
+      0.7950554134697357,
+      0.8295284524908905,
+      0.8295284524908905
+    ]
+  },
+  "limitations": [
+    "No saved checkpoint or per-row transformer prediction file supplied.",
+    "Environment not locked; kernel state not recoverable.",
+    "Saved markdown table incorrectly reported accuracy 0.86 and macro F1 0.8570.",
+    "Historical metrics are rounded where only formatted output is available."
+  ]
+}

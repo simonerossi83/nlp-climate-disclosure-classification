@@ -1,0 +1,8 @@
+{
+  "primary_seed": 42,
+  "delta_macro_f1": 0.0598174900347489,
+  "ci_low": 0.006070669584768077,
+  "ci_high": 0.11440328760296514,
+  "method": "paired class-stratified percentile bootstrap",
+  "resamples": 2000
+}

@@ -1,0 +1,6 @@
+pattern,source,wrong_prediction,classical_errors,transformer_errors,shared_same_error,new_transformer_errors,classical_errors_corrected,examples,example_interpretation
+Opportunity described as neutral,opportunity,neutral,29,24,19,4,10,test:0203; test:0023,A 2050 portfolio ambition is missed by both; a paragraph about implemented HVAC energy savings is a transformer-only miss.
+Neutral description interpreted as risk,neutral,risk,26,23,12,11,13,test:0296; test:0060,A statement about what carbon footprints do not measure is treated as risk by both; a neutral risk-management process is a transformer-only error.
+Neutral financial/operational reporting interpreted as opportunity,neutral,opportunity,15,15,10,4,5,test:0044; test:0002,A fossil-generation asset-sale gain is labelled opportunity by both; a descriptive asset transaction is a transformer-only opportunity prediction.
+Risk exposure described as neutral,risk,neutral,17,11,8,3,7,test:0253; test:0039,Both miss carbon-price exposure within a mitigation plan; the transformer misses operational-cost risk among greener-investment bullets.
+Risk outcome interpreted as opportunity,risk,opportunity,4,4,2,0,2,test:0194; test:0266,Both label a cancelled low-carbon facility opportunity; the transformer labels rising electricity-cost exposure opportunity while the classical model calls it neutral.

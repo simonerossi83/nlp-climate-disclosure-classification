@@ -1,0 +1,13 @@
+{
+  "method": "exact linear contrast plus word deletion",
+  "row_ids": [
+    "test:0061",
+    "test:0296",
+    "test:0194",
+    "test:0001",
+    "test:0035",
+    "test:0184"
+  ],
+  "row_id": "test:0296",
+  "scope": "classical LR only; no transformer token attribution"
+}

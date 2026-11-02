@@ -1,0 +1,54 @@
+{
+  "protocol_version": "2.0",
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "dataset_revision": "f261b1fd1af11195db3bdfd809a37a85e0d9fbc2",
+  "model_id": "distilbert/distilbert-base-uncased",
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "baseline": {
+    "min_df": 5,
+    "max_features": 1000,
+    "C_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "alpha": 1.0,
+    "max_iter": 1000
+  },
+  "transformer": {
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "max_length": 128,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.0,
+    "fp16": false,
+    "early_stopping_patience": 1,
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  "bootstrap_resamples": 2000,
+  "decision": {
+    "min_macro_f1": 0.8,
+    "min_risk_recall": 0.85,
+    "min_transformer_gain": 0.03,
+    "min_retained_accuracy": 0.95,
+    "min_coverage": 0.5,
+    "min_validation_retained_n": 30,
+    "max_inference_ms_per_paragraph": 100.0
+  },
+  "routing_threshold_grid": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "run_transformer": "auto_cuda_only",
+  "run_pos": false
+}

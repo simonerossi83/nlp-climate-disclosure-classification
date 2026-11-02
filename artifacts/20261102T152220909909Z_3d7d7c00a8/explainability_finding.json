@@ -1,0 +1,9 @@
+{
+  "row_id": "test:0296",
+  "failure_pair": "neutral \u2192 risk",
+  "linear_model": "TF-IDF|LR|1gram|stop=None|C=1.0",
+  "top_supporting_term": "risks",
+  "logit_contribution": 0.5611629672723226,
+  "selected_deletion_top_word": "risks",
+  "selected_deletion_drop": 0.0426237892646909
+}

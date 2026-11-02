@@ -1,0 +1,13 @@
+factor,controls,comparison,delta_validation_f1
+representation,"('LR', np.int64(1), 'english')",TF-IDF minus BoW,0.018371895685155293
+representation,"('LR', np.int64(2), 'english')",TF-IDF minus BoW,0.023381529130371836
+representation,"('NB', np.int64(1), 'english')",TF-IDF minus BoW,-0.011500334621184827
+representation,"('NB', np.int64(2), 'english')",TF-IDF minus BoW,0.005582446084144599
+classifier,"('BoW', np.int64(1), 'english')",LR minus NB,0.008706657852218691
+classifier,"('BoW', np.int64(2), 'english')",LR minus NB,0.001616323491323568
+classifier,"('TF-IDF', np.int64(1), 'english')",LR minus NB,0.03857888815855881
+classifier,"('TF-IDF', np.int64(2), 'english')",LR minus NB,0.019415406537550806
+ngram_max,"('BoW', 'LR', 'english')",2 minus 1,-0.0011394654638874346
+ngram_max,"('BoW', 'NB', 'english')",2 minus 1,0.005950868897007688
+ngram_max,"('TF-IDF', 'LR', 'english')",2 minus 1,0.003870167981329109
+ngram_max,"('TF-IDF', 'NB', 'english')",2 minus 1,0.023033649602337114

@@ -1,0 +1,5 @@
+row_id,model,heading,source_label,prediction,p_neutral,p_opportunity,top_two_margin
+test:0035,Selected classical,False,opportunity,opportunity,0.2446573259867919,0.6650391412042883,0.4203818152174964
+test:0184,Selected classical,True,opportunity,opportunity,0.2582802510654715,0.6425907863743578,0.38431053530888637
+test:0035,DistilBERT seed 42,False,opportunity,opportunity,0.46624067,0.49767354,0.03143287
+test:0184,DistilBERT seed 42,True,opportunity,neutral,0.49841946,0.46343046,0.03498899999999999

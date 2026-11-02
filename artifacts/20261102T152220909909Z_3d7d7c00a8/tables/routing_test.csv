@@ -1,0 +1,5 @@
+model,threshold,retained_n,coverage,review_fraction,retained_accuracy,missed_risk_in_retained
+Selected classical,,0,0.0,1.0,,0
+DistilBERT seed 42,,0,0.0,1.0,,0
+DistilBERT seed 43,,0,0.0,1.0,,0
+DistilBERT seed 44,,0,0.0,1.0,,0

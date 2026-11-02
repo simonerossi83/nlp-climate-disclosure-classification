@@ -1,0 +1,23 @@
+{
+  "run_id": "20261102T152220909909Z_3d7d7c00a8",
+  "source_manifest_sha256": "523964df90a6558059c32e37ca2b07e029ddabdecc281f1a4b68255eb784f560",
+  "mode": "saved-prediction review; no transformer training or inference",
+  "recorded_environment": {
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "colab": true,
+    "config_sha256": "3d7d7c00a8fc83d9b63844512af76f3415b7fbe33cb81da3145fa2195f2723e7",
+    "run_id": "20261102T152220909909Z_3d7d7c00a8",
+    "thread_settings": {
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "PYTHONHASHSEED": null
+    },
+    "torch": "2.8.0+cu128",
+    "cuda_version": "12.8",
+    "gpu": "Tesla T4",
+    "deterministic_algorithms": true,
+    "fp16": false
+  }
+}

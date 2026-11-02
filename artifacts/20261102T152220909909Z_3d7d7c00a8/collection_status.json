@@ -1,0 +1,24 @@
+{
+  "run_id": "20261102T152220909909Z_3d7d7c00a8",
+  "compute_status": "complete: three GPU seeds and all analytical cells executed",
+  "collection_status": "analytical evidence retained locally; large transformer tensors remain on Colab",
+  "remote_run_directory": "/content/artifacts/20261102T152220909909Z_3d7d7c00a8",
+  "remote_archive": "/content/artifacts/20261102T152220909909Z_3d7d7c00a8.zip",
+  "remote_split_archive_directory": "/content/exports/20261102T152220909909Z_3d7d7c00a8",
+  "remote_archive_bytes": 2537239893,
+  "remote_archive_parts": 76,
+  "remote_only_files": [
+    "models/distilbert_seed_42/best/model.safetensors",
+    "models/distilbert_seed_42/checkpoints/checkpoint-150/model.safetensors",
+    "models/distilbert_seed_42/checkpoints/checkpoint-150/optimizer.pt",
+    "models/distilbert_seed_43/best/model.safetensors",
+    "models/distilbert_seed_43/checkpoints/checkpoint-150/model.safetensors",
+    "models/distilbert_seed_43/checkpoints/checkpoint-150/optimizer.pt",
+    "models/distilbert_seed_44/best/model.safetensors",
+    "models/distilbert_seed_44/checkpoints/checkpoint-100/model.safetensors",
+    "models/distilbert_seed_44/checkpoints/checkpoint-100/optimizer.pt"
+  ],
+  "reason": "Colab extension full-archive download returned Jupyter contents error 500 Internal Server Error; subsequent directory listing did not complete.",
+  "recovery": "Retain the active Colab session and download /content/exports/<run_id>/ in smaller files when the contents service recovers, or regenerate with the saved pinned notebook/config on a GPU.",
+  "locally_verified": "Recorded CSV metrics can be independently reconstructed; retained classical model and frozen-vocabulary refit reproduce all 320 predictions."
+}

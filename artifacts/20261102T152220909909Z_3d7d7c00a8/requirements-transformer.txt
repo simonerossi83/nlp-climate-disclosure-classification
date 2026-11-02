@@ -1,0 +1,11 @@
+-r requirements.txt
+# Separate GPU profile; no transformer training is started on CPU by default.
+torch==2.8.0
+transformers==4.57.1
+accelerate==1.11.0
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+safetensors==0.6.2
+# Keep Colab's optional vision/audio packages ABI-compatible with torch.
+torchvision==0.23.0
+torchaudio==2.8.0

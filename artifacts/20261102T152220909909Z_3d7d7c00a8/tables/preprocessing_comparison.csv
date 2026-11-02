@@ -1,0 +1,3 @@
+preprocessing,vocabulary_size,mean_retained_feature_occurrences,validation_macro_f1,delta_f1_vs_preserve
+stop_words=None,1000,58.77125,0.7912610180012415,0.0
+stop_words=english,1000,31.93375,0.7744040379167195,-0.016856980084521966

@@ -1,0 +1,260 @@
+[
+  {
+    "row_id": "test:0061",
+    "selection_reason": "Correct opportunity: quantified low-carbon investment",
+    "text": "We targeted a \u00a3500 million annual investment in low-carbon infrastructure from 2015-2020, and an associated carbon saving target of 100,000 CO2 tonnes annually. In 2016 we signed \u00a3450 million of new investment into wind, solar, biomass and energy efficiency, and our Infrastructure Income Fund will deliver over 150,000 tonnes of CO2e savings annually when the projects are operational. Aviva holds over \u00a3247 million in green bonds.",
+    "source_label": "opportunity",
+    "classical_prediction": "opportunity",
+    "contrast": "neutral",
+    "classical_score": 0.806981147831775,
+    "transformer_prediction": "opportunity",
+    "intercept_difference": -1.2680704242592244,
+    "feature_sum": 2.867565675038326,
+    "reconstructed_margin": 1.5994952507791016,
+    "supporting_terms": [
+      [
+        "million",
+        0.8384336137767775
+      ],
+      [
+        "000",
+        0.36834600133473533
+      ],
+      [
+        "in",
+        0.3005650536145152
+      ]
+    ],
+    "opposing_terms": [
+      [
+        "target",
+        -0.13180579220402433
+      ],
+      [
+        "co2e",
+        -0.10182364940042056
+      ],
+      [
+        "co2",
+        -0.0654905180522264
+      ]
+    ],
+    "most_sensitive_word": "million",
+    "largest_deletion_drop": 0.03687733216441036
+  },
+  {
+    "row_id": "test:0296",
+    "selection_reason": "Shared error: negated measurement caveat",
+    "text": "Does not measure a portfolio\u2019s total climate risks, such as physical risks in the event of extreme weather, floods and droughts, or, for example, consequences of increasing legislation on energy efficiency. Carbon footprints are not a measure of a portfolio\u2019s total climate options or how well a portfolio is positioned against a transition to a low-carbon society.",
+    "source_label": "neutral",
+    "classical_prediction": "risk",
+    "contrast": "neutral",
+    "classical_score": 0.8125940478173264,
+    "transformer_prediction": "risk",
+    "intercept_difference": -0.7797226570209062,
+    "feature_sum": 2.5500045064792296,
+    "reconstructed_margin": 1.7702818494583235,
+    "supporting_terms": [
+      [
+        "risks",
+        0.5611629672723226
+      ],
+      [
+        "or",
+        0.3853028795774929
+      ],
+      [
+        "physical",
+        0.2618263313916624
+      ]
+    ],
+    "opposing_terms": [
+      [
+        "total",
+        -0.08665516674668444
+      ],
+      [
+        "portfolio",
+        -0.07159977880403261
+      ],
+      [
+        "is",
+        -0.07066964317774793
+      ]
+    ],
+    "most_sensitive_word": "risks",
+    "largest_deletion_drop": 0.04262378926469079
+  },
+  {
+    "row_id": "test:0194",
+    "selection_reason": "Shared error: investment followed by project cancellation",
+    "text": "Developed in partnership with RANMAN Energy, the La Laguna Cogeneration facility was expected to provide low-carbon and cost-effective heat and electricity under a long-term agreement. The total investment associated with the project was expected to be $70 million. In February 2021, due to ongoing construction permitting delays, Canadian Utilities and Chemours mutually agreed to terminate the La Laguna Cogeneration facility contract. The contract provides for the recovery of Canadian Utilities' incurred costs on the project.",
+    "source_label": "risk",
+    "classical_prediction": "opportunity",
+    "contrast": "risk",
+    "classical_score": 0.5582069156071938,
+    "transformer_prediction": "opportunity",
+    "intercept_difference": -0.48834776723831824,
+    "feature_sum": 1.8642316360410067,
+    "reconstructed_margin": 1.3758838688026884,
+    "supporting_terms": [
+      [
+        "million",
+        0.32855095952269564
+      ],
+      [
+        "project",
+        0.2167396322791214
+      ],
+      [
+        "was",
+        0.21573895769561685
+      ]
+    ],
+    "opposing_terms": [
+      [
+        "costs",
+        -0.10934755429740832
+      ],
+      [
+        "associated",
+        -0.08559464735589227
+      ],
+      [
+        "be",
+        -0.07244508391072314
+      ]
+    ],
+    "most_sensitive_word": "million",
+    "largest_deletion_drop": 0.07470768126455707
+  },
+  {
+    "row_id": "test:0001",
+    "selection_reason": "Transformer correction: neutral risk-management description",
+    "text": "Verizon\u2019s environmental, health and safety management system provides a framework for identifying, controlling, and reducing the risks associated with the environments in which we operate. Besides regular management system assessments, internal and third-party compliance audits and inspections are performed annually at hundreds of facilities worldwide. The goal of these assessments is to identify and correct site-specific issues, and to educate and empower facility managers and supervisors to implement corrective actions. Verizon\u2019s environment, health and safety efforts are directed and supported by experienced experts around the world that support our operations and facilities.",
+    "source_label": "neutral",
+    "classical_prediction": "risk",
+    "contrast": "neutral",
+    "classical_score": 0.44171904664711054,
+    "transformer_prediction": "neutral",
+    "intercept_difference": -0.7797226570209062,
+    "feature_sum": 0.9524865374688092,
+    "reconstructed_margin": 0.17276388044790308,
+    "supporting_terms": [
+      [
+        "and",
+        0.35838169636205763
+      ],
+      [
+        "safety",
+        0.22760066752696861
+      ],
+      [
+        "risks",
+        0.22042262538899005
+      ]
+    ],
+    "opposing_terms": [
+      [
+        "internal",
+        -0.11626524163042681
+      ],
+      [
+        "efforts",
+        -0.08929833381662743
+      ],
+      [
+        "supported",
+        -0.06817637621653255
+      ]
+    ],
+    "most_sensitive_word": "risks",
+    "largest_deletion_drop": 0.055017009120932825
+  },
+  {
+    "row_id": "test:0035",
+    "selection_reason": "Special case: decarbonization paragraph without heading",
+    "text": "We aim to achieve a decarbonized society through energy-saving activities including upgrading to energy-efficient equipment, the adoption of renewable energy and upgrading to next-generation energy. We will also pursue the development of products and services which will contribute to the creation of a decarbonized society.",
+    "source_label": "opportunity",
+    "classical_prediction": "opportunity",
+    "contrast": "neutral",
+    "classical_score": 0.6650391412042883,
+    "transformer_prediction": "opportunity",
+    "intercept_difference": -1.2680704242592244,
+    "feature_sum": 2.2680577600848366,
+    "reconstructed_margin": 0.9999873358256122,
+    "supporting_terms": [
+      [
+        "energy",
+        0.5863465586344184
+      ],
+      [
+        "to",
+        0.2710240255958535
+      ],
+      [
+        "will",
+        0.19723025610305361
+      ]
+    ],
+    "opposing_terms": [
+      [
+        "achieve",
+        -0.044972451730740784
+      ],
+      [
+        "activities",
+        -0.031430021006541166
+      ],
+      [
+        "the",
+        -0.027998880042478618
+      ]
+    ],
+    "most_sensitive_word": "renewable",
+    "largest_deletion_drop": 0.03864579228636367
+  },
+  {
+    "row_id": "test:0184",
+    "selection_reason": "Special case: identical body with added heading",
+    "text": "[Decarbonized Society] We aim to achieve a decarbonized society through energy-saving activities including upgrading to energy-efficient equipment, the adoption of renewable energy and upgrading to next-generation energy. We will also pursue the development of products and services which will contribute to the creation of a decarbonized society.",
+    "source_label": "opportunity",
+    "classical_prediction": "opportunity",
+    "contrast": "neutral",
+    "classical_score": 0.6425907863743578,
+    "transformer_prediction": "neutral",
+    "intercept_difference": -1.2680704242592244,
+    "feature_sum": 2.179533292971601,
+    "reconstructed_margin": 0.9114628687123764,
+    "supporting_terms": [
+      [
+        "energy",
+        0.54113453538017
+      ],
+      [
+        "society",
+        0.2590829406183045
+      ],
+      [
+        "to",
+        0.2501258991086139
+      ]
+    ],
+    "opposing_terms": [
+      [
+        "achieve",
+        -0.04150471494008528
+      ],
+      [
+        "activities",
+        -0.02900651426005535
+      ],
+      [
+        "the",
+        -0.02583994178841662
+      ]
+    ],
+    "most_sensitive_word": "renewable",
+    "largest_deletion_drop": 0.03716082676207766
+  }
+]

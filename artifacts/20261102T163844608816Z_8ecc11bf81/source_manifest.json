@@ -1,0 +1,21 @@
+{
+  "dataset": "climatebert/climate_sentiment",
+  "revision": "f261b1fd1af11195db3bdfd809a37a85e0d9fbc2",
+  "files": {
+    "test-00000-of-00001-3f9f7af4f5914b8e.parquet": {
+      "sha256": "47bc8ce57d5d975628063362827543df9382511e1a6d501896bf3a678a36fc75",
+      "bytes": 100977
+    },
+    "train-00000-of-00001-04b49ae22f595095.parquet": {
+      "sha256": "709f6dd5b265e9de31357c112ce7673ee3522e364e7e0712c649216f83a4499b",
+      "bytes": 272661
+    }
+  },
+  "label_names": [
+    "risk",
+    "neutral",
+    "opportunity"
+  ],
+  "license": "CC-BY-NC-SA-4.0",
+  "source_card": "https://huggingface.co/datasets/climatebert/climate_sentiment/blob/f261b1fd1af11195db3bdfd809a37a85e0d9fbc2/README.md"
+}

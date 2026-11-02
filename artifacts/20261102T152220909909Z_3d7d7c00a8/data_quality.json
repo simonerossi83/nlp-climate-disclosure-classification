@@ -1,0 +1,11 @@
+{
+  "missing_values": 0,
+  "conflicting_duplicates": 0,
+  "train_duplicates_removed": 0,
+  "cross_split_exact_duplicates": 0,
+  "split_sizes": {
+    "train": 800,
+    "validation": 200,
+    "test": 320
+  }
+}
